@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.70",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-session": "^6.0.0",
+    "next": "^9.5.3",
+    "ngrok": "^3.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "ngrok": "ngrok http --host-header=rewrite 3000"
+  }
+}
